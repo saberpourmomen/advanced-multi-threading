@@ -4,6 +4,7 @@
     <option name="moduleMapping">
       <map>
         <entry key="01-simple-implementation" value="01-thread" />
+        <entry key="02-thread-specification" value="thread-specification" />
       </map>
     </option>
   </component>
