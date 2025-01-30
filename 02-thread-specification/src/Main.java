@@ -7,7 +7,7 @@ public class Main {
                 try {
                     TimeUnit.MILLISECONDS.sleep(500);
                 } catch (InterruptedException e) {
-                    throw new RuntimeException(e);
+                    System.out.println("3. thread status : "+Thread.currentThread().getState());
                 }
             }
         },"newThread");
@@ -27,12 +27,13 @@ public class Main {
         System.out.print("\t******\t"+"thread priority : "+thread.getPriority());
         thread.setPriority(Thread.MAX_PRIORITY);
         System.out.println("\t******\t"+"thread priority : "+thread.getPriority());
+        thread.interrupt();
         try {
             thread.join();
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        System.out.println("3. thread status : "+thread.getState());
+        System.out.println("4. thread status : "+thread.getState());
         System.out.println("FINISHED`!");
     }
 
