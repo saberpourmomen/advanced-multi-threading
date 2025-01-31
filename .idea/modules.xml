@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/02-thread-specification/02-thread-specification.iml" filepath="$PROJECT_DIR$/02-thread-specification/02-thread-specification.iml" />
       <module fileurl="file://$PROJECT_DIR$/3-even-odd-challenge/3-even-odd-challenge.iml" filepath="$PROJECT_DIR$/3-even-odd-challenge/3-even-odd-challenge.iml" />
       <module fileurl="file://$PROJECT_DIR$/4-shared-memory/4-shared-memory.iml" filepath="$PROJECT_DIR$/4-shared-memory/4-shared-memory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5-shared-memory-resolved/5-shared-memory-resolved.iml" filepath="$PROJECT_DIR$/5-shared-memory-resolved/5-shared-memory-resolved.iml" />
       <module fileurl="file://$PROJECT_DIR$/advanced-multi-threading.iml" filepath="$PROJECT_DIR$/advanced-multi-threading.iml" />
     </modules>
   </component>
