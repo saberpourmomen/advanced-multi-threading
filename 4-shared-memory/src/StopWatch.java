@@ -2,12 +2,12 @@ import java.util.concurrent.TimeUnit;
 
 public class StopWatch {
     private final TimeUnit timeUnit;
-
+    private int i=5;
     public StopWatch(TimeUnit timeUnit) {
         this.timeUnit = timeUnit;
     }
     public void countDown(){
-        countDown(5);
+        countDown(i);
     }
     public void countDown(int unitCount){
         String threadName=Thread.currentThread().getName();
@@ -18,7 +18,7 @@ public class StopWatch {
             throw new RuntimeException("Bad color name!",e);
         }
         String color=threadColor.getColor();
-        for (int i = unitCount; i >0 ; i--) {
+        for (i = unitCount; i >0 ; i--) {
             try {
                 timeUnit.sleep(1);
             } catch (InterruptedException e) {
